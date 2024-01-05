@@ -1,4 +1,4 @@
-public class Employe {
+abstract public class Employe {
   
   private String nom;
   private String prenom;
@@ -10,6 +10,12 @@ public class Employe {
     this.prenom = prenom;
     this.age = age;
     this.dateEntree = dateEntree;
+  }
+
+  public abstract double calculerSalaire();
+
+  public String getNom(){
+    return "L'employe "+ prenom + " " + nom;
   }
 
 }
