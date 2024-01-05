@@ -1,4 +1,4 @@
-class Vendeur extends Employe {
+public class Vendeur extends Employe {
 
   private double chiffreAffaire;
 
