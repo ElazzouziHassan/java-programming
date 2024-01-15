@@ -26,7 +26,7 @@ public abstract class Courrier {
     }
 }
 
-  private boolean valide() {
+  protected boolean valide() {
     return adresse.length() > 0;
   }
 
